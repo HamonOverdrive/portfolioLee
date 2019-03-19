@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import { keyFrameExampleOne } from './KeyFrames';
 
 export const VertParagraph = styled.p`
-  color: #944a99;
+  color: #cda05f;
   position: absolute;
   top: 40px;
   left: 20px;

@@ -6,11 +6,11 @@
 
 .ui.vertical.tabular.menu .active.item{
   background-color: transparent;
-  color: white;
+  color: black;
 }
 
 .ui.tabular.menu .item{
-  color: white;
+  color: black;
 }
 
 .ui.menu{
