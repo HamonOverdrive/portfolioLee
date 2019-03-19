@@ -26,10 +26,13 @@ export default class NavMenu extends Component {
           as={NavLink}
           exact to="/links"
         />
+        <Menu.Item>
         <a href="https://www.linkedin.com/in/robinlee64/">
         <Icon link name='linkedin' />
         </a>
         <a href="https://github.com/HamonOverdrive"><Icon link name='github' /></a>
+        </Menu.Item>
+
       </Menu>
     </Grid.Column>
     )
