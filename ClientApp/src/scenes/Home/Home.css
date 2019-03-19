@@ -1,0 +1,17 @@
+.innerContent{
+  background-color: black;
+  overflow: hidden;
+}
+
+.aboutParagraph{
+  line-height: 2.4em;
+  font-size: 17px;
+  text-align: center;
+  padding: 85px 110px 70px;
+}
+
+.ui.centered.grid > .column:not(.aligned):not(.justified):not(.row), .ui.centered.grid > .row > .column:not(.aligned):not(.justified), .ui.grid .centered.row > .column:not(.aligned):not(.justified){
+  /* padding: 85px 110px 70px; */
+  margin-top: 45px;
+}
+

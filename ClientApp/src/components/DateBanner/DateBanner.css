@@ -1,0 +1,7 @@
+.ui.menu > .item:first-child{
+  background-color: #603175;
+}
+
+.ui.menu{
+  background-color: #944a99;
+}

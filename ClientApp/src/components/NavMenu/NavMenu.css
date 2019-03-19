@@ -1,0 +1,22 @@
+﻿.ui.vertical.tabular.menu{
+  background-color: transparent;
+  border: 0;
+}
+
+
+.ui.vertical.tabular.menu .active.item{
+  background-color: transparent;
+  color: white;
+}
+
+.ui.tabular.menu .item{
+  color: white;
+}
+
+.ui.menu{
+  margin-bottom: 45px;
+}
+
+i.icon{
+  font-size: 40px;
+}
