@@ -20,10 +20,9 @@ const Footer = props => (
             <Grid.Column width={3}>
               <Header as='h4' content='Portfolio links' />
               <List link >
-                <List.Item as='a' href="">Banana Pre-Order</List.Item>
-                <List.Item as='a'>DNA FAQ</List.Item>
-                <List.Item as='a'>How To Access</List.Item>
-                <List.Item as='a'>Favorite X-Men</List.Item>
+                <List.Item
+                as='a'
+                content={<a href='https://github.com/HamonOverdrive'>https://github.com/HamonOverdrive</a>}></List.Item>
               </List>
             </Grid.Column>
             <Grid.Column width={7}>
