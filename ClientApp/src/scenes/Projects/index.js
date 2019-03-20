@@ -13,7 +13,7 @@ const Projects = () => (
       <Icon name="coffee"/>
       <Header.Content>Projects</Header.Content>
     </Header>
-    <Grid centered columns={2}>
+    <Grid centered stackable columns={2}>
       <StyledGridCol width={6}>
         <Card className="project">
           <Image src={Pandemic} />
@@ -25,9 +25,9 @@ const Projects = () => (
             - Visual map displays using React simple maps library with svg manipulation done on frontend.</Card.Description>
           </Card.Content>
           <Card.Content extra>
-            <a>
-              <Icon name='user' />
-              10 Friends
+            <a href="https://dev-pandemic.firebaseapp.com/">
+              <Icon name='star' />
+              Click me to try game
             </a>
           </Card.Content>
         </Card>
@@ -43,9 +43,9 @@ const Projects = () => (
               - Frontend using React and Redux to change states for users and display correct data on the frontend.</Card.Description>
           </Card.Content>
           <Card.Content extra>
-            <a>
-              <Icon name='user' />
-              10 Friends
+            <a href="https://cageshopper.herokuapp.com/">
+              <Icon name='star' />
+              Click me to try web application
             </a>
           </Card.Content>
         </Card>

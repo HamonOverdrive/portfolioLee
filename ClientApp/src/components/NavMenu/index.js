@@ -19,17 +19,14 @@ export default class NavMenu extends Component {
         <Menu.Item name='projects' active={activeItem === 'projects'} onClick={this.handleItemClick}
         as={NavLink}
         exact to="/projects" />
-        <Menu.Item
-          name='links'
-          active={activeItem === 'links'}
-          onClick={this.handleItemClick}
-          as={NavLink}
-          exact to="/links"
-        />
+
+        <Menu.Item>
         <a href="https://www.linkedin.com/in/robinlee64/">
         <Icon link name='linkedin' />
         </a>
         <a href="https://github.com/HamonOverdrive"><Icon link name='github' /></a>
+        </Menu.Item>
+
       </Menu>
     </Grid.Column>
     )

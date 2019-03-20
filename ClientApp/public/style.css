@@ -2,9 +2,10 @@ body{
   font-family: "Amiri", serif;
   background-color: black;
   color: white;
-  background-image: url('https://www.fate-sn.com/assets/img/2nd/pc/bg/9.jpg');
+  /* background-image: url('https://www.fate-sn.com/assets/img/2nd/pc/bg/9.jpg'); */
+  background-image: url('https://fate-apocrypha.com/assets/img/top/bg.jpg');
 }
 
 .ui.center.aligned.header, .ui.centered.header{
-  color: white;
+  color: black;
 }

@@ -27,7 +27,7 @@ export default class DateBanner extends Component {
           name='editorials'
           onClick={this.handleItemClick}
         >
-          Todays Date
+          Current Date/Time
         </Menu.Item>
         <Menu.Item>{this.state.date}</Menu.Item>
       </Menu>

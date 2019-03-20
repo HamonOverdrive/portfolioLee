@@ -6,15 +6,16 @@
 
 .ui.vertical.tabular.menu .active.item{
   background-color: transparent;
-  color: white;
+  color: black;
 }
 
 .ui.tabular.menu .item{
-  color: white;
+  color: black;
 }
 
 .ui.menu{
   margin-bottom: 45px;
+  font-family: "Amiri", serif;
 }
 
 i.icon{

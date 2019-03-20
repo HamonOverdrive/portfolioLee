@@ -1,0 +1,7 @@
+footer div{
+  color: black;
+}
+
+.ui.inverted.segment, .ui.primary.inverted.segment{
+  background-image: url("https://fate-apocrypha.com/assets/img/footer/base.jpg");
+}
