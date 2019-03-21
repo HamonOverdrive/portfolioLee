@@ -1,4 +1,6 @@
 FROM microsoft/dotnet:2.2-sdk AS build-env
+
+ENV ASPNETCORE_URLS=http://*:8080
 WORKDIR /app
 
 
