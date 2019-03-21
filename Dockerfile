@@ -1,6 +1,7 @@
 FROM microsoft/dotnet:2.2-sdk AS build-env
 WORKDIR /app
 
+RUN apt-get install -y nodejs
 # Copy csproj and restore as distinct layers
 COPY *.csproj ./
 RUN dotnet restore
