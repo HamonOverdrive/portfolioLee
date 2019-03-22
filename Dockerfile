@@ -1,5 +1,7 @@
 FROM microsoft/dotnet:2.2-sdk AS build-env
 
+
+# Unsure if Expose and ENV are needed
 EXPOSE 8080
 ENV ASPNETCORE_URLS=http://*:8080
 WORKDIR /app
@@ -22,5 +24,9 @@ COPY --from=build-env /app/out .
 
 # Entry point doesnt seem to work well with heroku
 # ENTRYPOINT ["dotnet", "Lee.dll"]
+
+# this alone will not work working answer is last CMD
 # CMD dotnet Lee.dll
+
+# un sure but ASPNETCORE_URLS=http://*:$PORT is needed
 CMD ASPNETCORE_URLS=http://*:$PORT dotnet Lee.dll
