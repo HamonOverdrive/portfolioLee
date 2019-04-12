@@ -19,3 +19,41 @@
   font-family: "Amiri", serif;
 }
 
+
+@media only screen
+  and (min-device-width: 800px)
+  and (max-device-width: 1280px)
+  and (-webkit-min-device-pixel-ratio: 1.5) {
+    .aboutParagraph{
+      line-height: 2.2em;
+      font-size: 14px;
+      text-align: center;
+      padding: 61px 93px 61px;
+    }
+}
+
+/* Portrait and Landscape */
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .aboutParagraph{
+      line-height: 2em;
+      font-size: 10px;
+      text-align: center;
+      padding: 9px 29px 9px;
+    }
+}
+
+
+@media only screen
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 1.5) {
+    .aboutParagraph{
+      line-height: 2.2em;
+      font-size: 14px;
+      text-align: center;
+      padding: 61px 93px 61px;
+    }
+}

@@ -3,15 +3,16 @@ import { Container, Grid, } from 'semantic-ui-react';
 import  NavMenu  from '../NavMenu';
 import DateBanner from '../DateBanner'
 import Footer from './components/Footer'
+import './Layout.css'
 
 export class Layout extends Component {
   static displayName = Layout.name;
 
   render () {
     return (
-      <div>
+      <div className="Site">
         <DateBanner />
-        <Grid>
+        <Grid className="Site-content">
         <NavMenu />
         <Grid.Column stretched width={12}>
         {/* What difference between Container and Segment? */}
