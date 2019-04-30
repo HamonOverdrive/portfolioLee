@@ -19,9 +19,10 @@ heroku buildpacks:set jincod/dotnetcore
 heroku buildpacks:add --index 1 heroku/nodejs
 ```
 
+Read the guide for the addition instructions for more details but git add and commit and run
+ Skip this step in the guide  because you will be deploying with circleci through heroku -->Push the repository master branch to the heroku app:
 
-
-After heroku setup here is finish as CircleCi will be used and Docker
+After heroku setup here is finish STOP as CircleCi will be used and Docker
 
 NOTE: Do not need to put package json in root directory this will read the one in ClientApp folder
 
@@ -66,7 +67,7 @@ CMD ASPNETCORE_URLS=http://*:$PORT dotnet Lee.dll
 ```
 Below CMD will allow the app to run without any kestral errors.
 ```
-CMD ASPNETCORE_URLS=http://*:$PORT dotnet Lee.dll
+CMD ASPNETCORE_URLS=http://*:$PORT dotnet {bin/Debug/netcoreapp to find name}.dll
 ```
 
 
