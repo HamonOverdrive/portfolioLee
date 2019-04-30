@@ -11,11 +11,15 @@ https://elements.heroku.com/buildpacks/jincod/dotnetcore-buildpack
 
 Create buildpacks by using (run these commands in root directory):
 
+NOTE: For heroku create you can add a custom beginning domain name if you fill in the custom name field if you would like to
+
 ```bash
-heroku create --buildpack https://github.com/jincod/dotnetcore-buildpack.git
+heroku create --buildpack https://github.com/jincod/dotnetcore-buildpack.git or heroku create {CUSTOMNAME} --buildpack https://github.com/jincod/dotnetcore-buildpack.git
 heroku buildpacks:set jincod/dotnetcore
 heroku buildpacks:add --index 1 heroku/nodejs
 ```
+
+
 
 After heroku setup here is finish as CircleCi will be used and Docker
 
